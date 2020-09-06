@@ -1,0 +1,95 @@
+
+*{
+    margin: 0; padding: 0;
+
+}
+.clear{
+    clear: both;
+}
+li{
+    list-style: none;
+}
+.nav li{
+    float: left;
+    margin-right: 40px;
+}
+h1{
+    color: #0732b9;
+    font-size: 45px;
+    padding-left: 75px;
+    padding-right: 75px;
+}
+hr{
+    postion: absolute;
+    width: 1521px;
+    margin-bottom: 20px;
+}
+.container{
+    width:1521px;
+    height: 1445px;
+    padding-left: 75px;
+    padding-right: 75px;
+}
+.d1{
+    margin-top:20px;
+    margin-bottom: 20px;
+}
+.d2{
+    margin-bottom: 40px;
+}
+.image_container{
+    float: left;
+    margin-right: 50px;
+    margin-top: 10px;
+}
+.image_title{
+    text-align: center;
+    color: #0a32b9;
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 75px;
+    margin-bottom: 75px;
+}
+img{
+    border-right: 20px solid #9adde5;
+}
+.parallax{
+    background-image: url("https://csci571.com/hw/hw3/images/Cutlery.png");
+
+    height: 650px;
+    width: 1350px;
+    background-attachment: fixed;
+
+    background-repeat: no-repeat;
+
+}
+#statement{
+    color: #0430b9;
+    text-align: center;
+    padding-right: 300px;
+}
+#statementBox{
+    margin-top: 40px;
+    margin-bottom: 50px;
+}
+#collectionBox{
+    float: left;
+    margin-left: 75px;
+    margin-top: 50px;
+}
+
+#collection_statement{
+    color: #0a32b9;
+    font-size: 75px;
+    font-weight: bold;
+}
+
+#shopNowBox{
+    background: #ffffff;
+    width: 100px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
