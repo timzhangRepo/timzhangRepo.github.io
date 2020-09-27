@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.clear{
+    clear: both;
+}
+body{
+    background: #55559f;
+}
+label span{
+    color:red;
+}
+#frame{
+    width:1100px;
+    height: 1000px;
+    padding-left: 75px;
+}
+#main_box{
+    margin:auto;
+    margin-top: 50px;
+    width:700px;
+    height: 250px;
+    background: #e8e8e8;
+    border-radius: 5px;
+}
+#title{
+    margin:auto;
+    padding-top: 50px;
+    text-align: center;
+}
+#searchBox{
+    margin-top: 20px;
+    margin-left: 200px;
+}
+#buttonBox{
+    margin-left: 250px;
+}
+#stockSymbolInput{
+    border-radius: 5px;
+    border:none;
+    height: 20px;
+}
+.mbutton{
+    background: #f7f7f7;
+    margin-left: 25px;
+    border:none;
+    padding:5px;
+    border-radius: 5px;
+    height: 25px;
+    width: 75px;
+}
+hr{
+    width: 700px;
+    margin: auto;
+    margin-top: 20px;
+    background: #e8e8e8;
+}
+#infoBox{
+    margin:auto;
+    margin-top: 20px;
+    width:700px;
+    height: 50px;
+    border-radius: 5px;
+}
+#menu{
+    background: #e8e8e8;
+}
+#menu li{
+    padding: 20px;
+    list-style: none;
+    float: left;
+    text-align: center;
+    font-size: 15px;
+}
+#menu li:hover{
+    background: #d8d8d8 ;
+}
+#content li{
+    padding-top: 17px;
+    list-style: none;
+    float: left;
+    text-align: center;
+    font-size: 15px;
+    display: none;
+}
+#content li div{
+    width: 700px;
+    height: 200px;
+    background: #e8e8e8;
+}
+#CO table{
+    width: 700px;
+    height: 150px;
+    border-collapse: collapse;
+}
+#CO table td, #CO table th{
+    border: 1px solid #cfc8c8;
+}
+#CO table td:nth-child(1){
+    width: 250px;
+    text-align: left;
+    background: #e4e4e2;
+}
+#CO table td:nth-child(2){
+    width: 450px;
+    text-align: center;
+    background: #fafafa;
+}
+.act {
+    background: #d8d8d8 !important;
+}
+.companyOutlookElement{
+    text-align: center;
+    margin: 140px;
+    height: 200px;
+}

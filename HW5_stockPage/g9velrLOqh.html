@@ -3,8 +3,70 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<p>A new chapter shall begin</p>
+<div id="frame">
+    <div id="main_box">
+        <h1 id="title">Stock Search</h1>
+        <form onsubmit="return false">
+            <div id="searchBox">
+                <label for="stockSymbolInput">Enter Stock Ticker Symbol<span>*</span></label>
+                <input type="text" id="stockSymbolInput" name="stockSymbol"><br><br>
+            </div>
+            <div id="buttonBox">
+                <button class="mbutton" id="searchButton">search</button>
+                <button class="mbutton" id="clearButton">clear</button>
+            </div>
+        </form>
+
+    </div>
+    <hr>
+    <div id="infoBox" style="display: none">
+        <ul id="menu">
+            <li class="act">Company Outlook</li>
+            <li>Stock Summary</li>
+            <li>Charts</li>
+            <li>Latest News</li>
+            <div class="clear"></div>
+        </ul>
+        <ul id="content">
+            <li id="CO">
+                <table>
+                    <tr style="display: none">
+                        <th></th>
+                        <th></th>
+                    </tr>
+                    <tr>
+                        <td>Company Name</td>
+                        <td id="CO_name_field">null</td>
+                    </tr>
+                    <tr>
+                        <td>Stock Ticker Symbol</td>
+                        <td id="CO_ticker_field">null</td>
+                    </tr>
+                    <tr>
+                        <td>Stock Exchange Code</td>
+                        <td id="CO_EC_field">null</td>
+                    </tr>
+                    <tr>
+                        <td>Company Start Date</td>
+                        <td id="CO_SD_field">null</td>
+                    </tr>
+                    <tr>
+                        <td>Description</td>
+                        <td id="CO_description">null</td>
+                    </tr>
+                </table>
+            </li>
+            <li><div>股票信息</div></li>
+            <li><div>图标</div></li>
+            <li><div>新闻</div></li>
+            <div class="clear"></div>
+        </ul>
+    </div>
+</div>
+<script src="index.js"></script>
 </body>
+
 </html>
