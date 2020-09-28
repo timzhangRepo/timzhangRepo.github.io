@@ -7,7 +7,7 @@ var infoBox = document.getElementById("infoBox");
 let clear = document.getElementById("clearButton");
 let aws = "http://timzhangrepo-python.us-east-1.elasticbeanstalk.com/"
 
-
+//Author tim zhang
 clear.onclick = function () {
     document.getElementById("stockSymbolInput").value = "";
     document.getElementById("notFoundBox").style.display="none"
