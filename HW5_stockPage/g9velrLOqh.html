@@ -22,6 +22,7 @@
 
     </div>
     <hr>
+    <div id="notFoundBox" style="display: none"><p>Error: No Record has been found, please enter a valid symbol</p></div>
     <div id="infoBox" style="display: none">
         <ul id="menu">
             <li class="act">Company Outlook</li>
@@ -31,11 +32,11 @@
             <div class="clear"></div>
         </ul>
         <ul id="content">
-            <li id="CO">
+            <li id="CO" style="display: block">
                 <table>
                     <tr style="display: none">
-                        <th></th>
-                        <th></th>
+                        <td></td>
+                        <td></td>
                     </tr>
                     <tr>
                         <td>Company Name</td>
@@ -59,7 +60,54 @@
                     </tr>
                 </table>
             </li>
-            <li><div>股票信息</div></li>
+            <li id="SS">
+                <table>
+                    <tr style="display: none">
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>Stock Ticker Symbol</td>
+                        <td class="SStr">null</td>
+                    </tr>
+                    <tr>
+                        <td>Trading Day</td>
+                        <td class="SStr" id="">null</td>
+                    </tr>
+                    <tr>
+                        <td>Previous Closing Price</td>
+                        <td class="SStr">null</td>
+                    </tr>
+                    <tr>
+                        <td>Openning Price</td>
+                        <td class="SStr">null</td>
+                    </tr>
+                    <tr>
+                        <td>High Price</td>
+                        <td class="SStr">null</td>
+                    </tr>
+                    <tr>
+                        <td>Low Price</td>
+                        <td class="SStr">null</td>
+                    </tr>
+                    <tr>
+                        <td>Last Price</td>
+                        <td class="SStr">null</td>
+                    </tr>
+                    <tr>
+                        <td>Change</td>
+                        <td class="SStr"></td>
+                    </tr>
+                    <tr>
+                        <td>Change Percent</td>
+                        <td class="SStr"></td>
+                    </tr>
+                    <tr>
+                        <td>Number of Shares Traded</td>
+                        <td class="SStr">null</td>
+                    </tr>
+                </table>
+            </li>
             <li><div>图标</div></li>
             <li><div>新闻</div></li>
             <div class="clear"></div>
