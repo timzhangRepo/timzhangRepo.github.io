@@ -3,7 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
+    <link rel="stylesheet" href="{{url_for('static',filename='style.css')}}">
+
+    <!--
+    for server
+    for testing
     <link rel="stylesheet" href="style.css">
+    -->
+    <script src="https://code.highcharts.com/stock/highstock.js"></script>
+    <script src="https://code.highcharts.com/modules/exporting.js"></script>
+
 </head>
 <body>
 <div id="frame">
@@ -22,7 +31,8 @@
 
     </div>
     <hr>
-    <div id="notFoundBox" style="display: none"><p>Error: No Record has been found, please enter a valid symbol</p></div>
+    <div id="notFoundBox" style="display: none"><p>Error: No Record has been found, please enter a valid symbol</p>
+    </div>
     <div id="infoBox" style="display: none">
         <ul id="menu">
             <li class="act">Company Outlook</li>
@@ -108,13 +118,25 @@
                     </tr>
                 </table>
             </li>
-            <li><div>图标</div></li>
-            <li><div>新闻</div></li>
+            <li>
+                <div id="container" style="width: 700px; height: 400px"></div>
+            </li>
+            <li id="NS">
+                <div class="newsBox" id="newsBoard"></div>
+            </li>
             <div class="clear"></div>
         </ul>
     </div>
 </div>
+<!--
+server side address
+
+testing side address
+ -->
+<script src="{url_for('static',filename='index.js')}"></script>
 <script src="index.js"></script>
+
+
 </body>
 
 </html>

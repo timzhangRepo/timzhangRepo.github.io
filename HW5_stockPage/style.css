@@ -2,81 +2,96 @@
     margin: 0;
     padding: 0;
 }
-.clear{
+
+.clear {
     clear: both;
 }
-body{
+body {
     background: #7373b8;
 }
-label span{
-    color:red;
+
+label span {
+    color: red;
 }
-#frame{
-    width:1100px;
+
+#frame {
+    width: 1100px;
     height: 1000px;
     padding-left: 75px;
 }
-#main_box{
-    margin:auto;
+
+#main_box {
+    margin: auto;
     margin-top: 50px;
-    width:700px;
+    width: 700px;
     height: 250px;
     background: #e8e8e8;
     border-radius: 5px;
 }
-#title{
-    margin:auto;
+
+#title {
+    margin: auto;
     padding-top: 50px;
     text-align: center;
 }
-#searchBox{
+
+#searchBox {
     margin-top: 20px;
     margin-left: 200px;
 }
-#buttonBox{
+
+#buttonBox {
     margin-left: 250px;
 }
-#stockSymbolInput{
+
+#stockSymbolInput {
     border-radius: 5px;
-    border:none;
+    border: none;
     height: 20px;
 }
-.mbutton{
+
+.mbutton {
     background: #f7f7f7;
     margin-left: 25px;
-    border:none;
-    padding:5px;
+    border: none;
+    padding: 5px;
     border-radius: 5px;
     height: 25px;
     width: 75px;
 }
-hr{
+
+hr {
     width: 700px;
     margin: auto;
     margin-top: 20px;
     background: #e8e8e8;
 }
-#infoBox{
-    margin:auto;
+
+#infoBox {
+    margin: auto;
     margin-top: 20px;
-    width:700px;
+    width: 700px;
     height: 50px;
     border-radius: 5px;
 }
-#menu{
+
+#menu {
     background: #e8e8e8;
 }
-#menu li{
+
+#menu li {
     padding: 20px;
     list-style: none;
     float: left;
     text-align: center;
     font-size: 15px;
 }
-#menu li:hover{
-    background: #d8d8d8 ;
+
+#menu li:hover {
+    background: #d8d8d8;
 }
-#content li{
+
+#content li {
     padding-top: 17px;
     list-style: none;
     float: left;
@@ -84,52 +99,92 @@ hr{
     font-size: 15px;
     display: none;
 }
-#content li div{
-    width: 700px;
-    height: 200px;
-    background: #e8e8e8;
-}
-#CO table{
+
+#CO table {
     width: 700px;
     height: 200px;
     border-collapse: collapse;
 }
-#SS table{
+
+#SS table {
     width: 700px;
     height: 300px;
     border-collapse: collapse;
 }
-#CO table td, #CO table th, #SS table td, #SS table th{
+
+#CO table td, #CO table th, #SS table td, #SS table th {
     border: 1px solid #cfc8c8;
 }
-#CO table td:nth-child(1), #SS table td:nth-child(1){
+
+#CO table td:nth-child(1), #SS table td:nth-child(1) {
     width: 250px;
     padding-left: 5px;
     text-align: left;
     font-weight: bold;
     background: #e4e4e2;
 }
+
 #CO table td:nth-child(2), #SS table td:nth-child(2) {
     width: 450px;
     text-align: center;
     background: #fafafa;
 }
+
 .act {
     background: #d8d8d8 !important;
 }
-.companyOutlookElement{
+
+.companyOutlookElement {
     text-align: center;
     margin: 140px;
     height: 200px;
 }
-#notFoundBox{
-    margin:auto;
+
+#notFoundBox {
+    margin: auto;
     margin-top: 20px;
     width: 700px;
     height: 100px;
     text-align: center;
 }
-#notFoundBox p{
+
+#notFoundBox p {
     font-size: large;
     font-weight: bold;
+}
+
+#newsArticleBox {
+    width: 700px;
+    height: 100px;
+    background: #d8d8d8;
+    display: block !important;
+}
+
+.newsBox {
+    width: 700px;
+    height: 100px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    background: #d8d8d8;
+}
+
+.articleImgBox {
+    float: left;
+    width: 80px;
+    height: 80px;
+    margin-top: 10px;
+    margin-left: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.articleTxtBox {
+    float: left;
+    width: 590px;
+    height: 80px;
+    margin-top: 10px;
+    margin-left: 10px;
+    text-align: left;
+
 }
